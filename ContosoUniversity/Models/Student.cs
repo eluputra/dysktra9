@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ContosoUniversity.Models
 {
-    public class Student : Person // update the student
+    public class Student : Person // update the student it is inheritance of person
     {
         public int ID { get; set; }
         [Required] // this one indicate have to have id like in html css required function

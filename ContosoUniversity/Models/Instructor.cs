@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 // new class of instructor has been created base on what the direction want us to do to copy and paste 
 namespace ContosoUniversity.Models
 {
-    public class Instructor : Person //update the instructor
+    public class Instructor : Person //update the instructor is inhertance of person
     {
         public int ID { get; set; }
 
